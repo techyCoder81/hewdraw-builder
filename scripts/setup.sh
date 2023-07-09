@@ -3,11 +3,10 @@
 echo "Installing cargo-skyline."
 cargo install cargo-skyline
 
-echo "Updating skyline std."
+echo "Updating skyline std (this may take a minute, with no output)"
 cargo skyline update-std
 
 echo "Updating skyline deps"
-cargo skyline update
 
 echo "Installing python3"
 apt-get update && apt-get install -y python3
