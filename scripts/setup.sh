@@ -12,4 +12,7 @@ cargo skyline update
 echo "Installing python3"
 apt-get update && apt-get install -y python3
 
+echo "Clearing out unnecessary cargo files"
+rm -rf ~/.cargo/skyline/toolchain/skyline/share/doc/*
+
 echo "Setup complete."
