@@ -6,8 +6,6 @@ on:
   pull_request_target:
     branches: ["main"]
   workflow_dispatch:
-  schedule:
-    - cron: '0 22 * * 5'
 
 jobs:
   push_to_docker:
